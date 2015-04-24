@@ -26,6 +26,8 @@ namespace PAKAZE.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Xamarin.Forms.Platform.Resource.String.ApplicationName = global::PAKAZE.Droid.Resource.String.ApplicationName;
+			global::Xamarin.Forms.Platform.Resource.String.Hello = global::PAKAZE.Droid.Resource.String.Hello;
 			global::XLabs.Forms.Resource.Color.calendar_active_month_bg = global::PAKAZE.Droid.Resource.Color.calendar_active_month_bg;
 			global::XLabs.Forms.Resource.Color.calendar_bg = global::PAKAZE.Droid.Resource.Color.calendar_bg;
 			global::XLabs.Forms.Resource.Color.calendar_divider = global::PAKAZE.Droid.Resource.Color.calendar_divider;
